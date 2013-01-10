@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495E5015169E79BF00A01103 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E5014169E79BF00A01103 /* UIKit.framework */; };
+		495E5017169E79BF00A01103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E5016169E79BF00A01103 /* Foundation.framework */; };
+		495E5019169E79BF00A01103 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E5018169E79BF00A01103 /* CoreGraphics.framework */; };
+		495E501B169E79BF00A01103 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E501A169E79BF00A01103 /* CoreData.framework */; };
+		495E5021169E79BF00A01103 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495E501F169E79BF00A01103 /* InfoPlist.strings */; };
+		495E5023169E79BF00A01103 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E5022169E79BF00A01103 /* main.m */; };
+		495E5027169E79BF00A01103 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E5026169E79BF00A01103 /* AppDelegate.m */; };
+		495E5029169E79BF00A01103 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 495E5028169E79BF00A01103 /* Default.png */; };
+		495E502B169E79BF00A01103 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 495E502A169E79BF00A01103 /* Default@2x.png */; };
+		495E502D169E79BF00A01103 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 495E502C169E79BF00A01103 /* Default-568h@2x.png */; };
+		495E5030169E79BF00A01103 /* SurgiFriend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 495E502E169E79BF00A01103 /* SurgiFriend.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		495E5010169E79BF00A01103 /* SurgiFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurgiFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495E5014169E79BF00A01103 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		495E5016169E79BF00A01103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		495E5018169E79BF00A01103 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		495E501A169E79BF00A01103 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		495E501E169E79BF00A01103 /* SurgiFriend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SurgiFriend-Info.plist"; sourceTree = "<group>"; };
+		495E5020169E79BF00A01103 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		495E5022169E79BF00A01103 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495E5024169E79BF00A01103 /* SurgiFriend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SurgiFriend-Prefix.pch"; sourceTree = "<group>"; };
+		495E5025169E79BF00A01103 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		495E5026169E79BF00A01103 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		495E5028169E79BF00A01103 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		495E502A169E79BF00A01103 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		495E502C169E79BF00A01103 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		495E502F169E79BF00A01103 /* SurgiFriend.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurgiFriend.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495E500D169E79BF00A01103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E5015169E79BF00A01103 /* UIKit.framework in Frameworks */,
+				495E5017169E79BF00A01103 /* Foundation.framework in Frameworks */,
+				495E5019169E79BF00A01103 /* CoreGraphics.framework in Frameworks */,
+				495E501B169E79BF00A01103 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495E5005169E79BF00A01103 = {
+			isa = PBXGroup;
+			children = (
+				495E501C169E79BF00A01103 /* SurgiFriend */,
+				495E5013169E79BF00A01103 /* Frameworks */,
+				495E5011169E79BF00A01103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		495E5011169E79BF00A01103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495E5010169E79BF00A01103 /* SurgiFriend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495E5013169E79BF00A01103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495E5014169E79BF00A01103 /* UIKit.framework */,
+				495E5016169E79BF00A01103 /* Foundation.framework */,
+				495E5018169E79BF00A01103 /* CoreGraphics.framework */,
+				495E501A169E79BF00A01103 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495E501C169E79BF00A01103 /* SurgiFriend */ = {
+			isa = PBXGroup;
+			children = (
+				495E5025169E79BF00A01103 /* AppDelegate.h */,
+				495E5026169E79BF00A01103 /* AppDelegate.m */,
+				495E502E169E79BF00A01103 /* SurgiFriend.xcdatamodeld */,
+				495E501D169E79BF00A01103 /* Supporting Files */,
+			);
+			path = SurgiFriend;
+			sourceTree = "<group>";
+		};
+		495E501D169E79BF00A01103 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				495E501E169E79BF00A01103 /* SurgiFriend-Info.plist */,
+				495E501F169E79BF00A01103 /* InfoPlist.strings */,
+				495E5022169E79BF00A01103 /* main.m */,
+				495E5024169E79BF00A01103 /* SurgiFriend-Prefix.pch */,
+				495E5028169E79BF00A01103 /* Default.png */,
+				495E502A169E79BF00A01103 /* Default@2x.png */,
+				495E502C169E79BF00A01103 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495E500F169E79BF00A01103 /* SurgiFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495E5033169E79BF00A01103 /* Build configuration list for PBXNativeTarget "SurgiFriend" */;
+			buildPhases = (
+				495E500C169E79BF00A01103 /* Sources */,
+				495E500D169E79BF00A01103 /* Frameworks */,
+				495E500E169E79BF00A01103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurgiFriend;
+			productName = SurgiFriend;
+			productReference = 495E5010169E79BF00A01103 /* SurgiFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495E5007169E79BF00A01103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jessie Yan";
+			};
+			buildConfigurationList = 495E500A169E79BF00A01103 /* Build configuration list for PBXProject "SurgiFriend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 495E5005169E79BF00A01103;
+			productRefGroup = 495E5011169E79BF00A01103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495E500F169E79BF00A01103 /* SurgiFriend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495E500E169E79BF00A01103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E5021169E79BF00A01103 /* InfoPlist.strings in Resources */,
+				495E5029169E79BF00A01103 /* Default.png in Resources */,
+				495E502B169E79BF00A01103 /* Default@2x.png in Resources */,
+				495E502D169E79BF00A01103 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495E500C169E79BF00A01103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E5023169E79BF00A01103 /* main.m in Sources */,
+				495E5027169E79BF00A01103 /* AppDelegate.m in Sources */,
+				495E5030169E79BF00A01103 /* SurgiFriend.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		495E501F169E79BF00A01103 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495E5020169E79BF00A01103 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495E5031169E79BF00A01103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		495E5032169E79BF00A01103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495E5034169E79BF00A01103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurgiFriend/SurgiFriend-Prefix.pch";
+				INFOPLIST_FILE = "SurgiFriend/SurgiFriend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		495E5035169E79BF00A01103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurgiFriend/SurgiFriend-Prefix.pch";
+				INFOPLIST_FILE = "SurgiFriend/SurgiFriend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495E500A169E79BF00A01103 /* Build configuration list for PBXProject "SurgiFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E5031169E79BF00A01103 /* Debug */,
+				495E5032169E79BF00A01103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495E5033169E79BF00A01103 /* Build configuration list for PBXNativeTarget "SurgiFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E5034169E79BF00A01103 /* Debug */,
+				495E5035169E79BF00A01103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		495E502E169E79BF00A01103 /* SurgiFriend.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				495E502F169E79BF00A01103 /* SurgiFriend.xcdatamodel */,
+			);
+			currentVersion = 495E502F169E79BF00A01103 /* SurgiFriend.xcdatamodel */;
+			path = SurgiFriend.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 495E5007169E79BF00A01103 /* Project object */;
+}
