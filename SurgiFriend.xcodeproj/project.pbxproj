@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4916F95616AEC4D7006F0CB8 /* ForshowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916F95516AEC4D7006F0CB8 /* ForshowViewController.m */; };
+		4916F96016AEDCED006F0CB8 /* game-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95916AEDCED006F0CB8 /* game-bg.png */; };
+		4916F96116AEDCED006F0CB8 /* game-cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95A16AEDCED006F0CB8 /* game-cross.png */; };
+		4916F96216AEDCED006F0CB8 /* game-doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95B16AEDCED006F0CB8 /* game-doc.png */; };
+		4916F96316AEDCED006F0CB8 /* game-monitor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95C16AEDCED006F0CB8 /* game-monitor.png */; };
+		4916F96416AEDCED006F0CB8 /* game-nurse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95D16AEDCED006F0CB8 /* game-nurse.png */; };
+		4916F96516AEDCED006F0CB8 /* game-ste.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95E16AEDCED006F0CB8 /* game-ste.png */; };
+		4916F96616AEDCED006F0CB8 /* game-wheelchair.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95F16AEDCED006F0CB8 /* game-wheelchair.png */; };
+		4916F96916AEDD61006F0CB8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916F96816AEDD61006F0CB8 /* GameViewController.m */; };
+		4933CDAF16A15542002F62C2 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4933CDAE16A15542002F62C2 /* EmailViewController.m */; };
+		4933CDB616A16321002F62C2 /* VisitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4933CDB516A16321002F62C2 /* VisitViewController.m */; };
+		4933CDB916A20657002F62C2 /* bg-tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDB816A20657002F62C2 /* bg-tree.png */; };
+		4933CDC116A25200002F62C2 /* bear-emailmyself.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDBC16A25200002F62C2 /* bear-emailmyself.png */; };
+		4933CDC216A25200002F62C2 /* bear-home.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDBD16A25200002F62C2 /* bear-home.png */; };
+		4933CDC316A25200002F62C2 /* bear-minigame.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDBE16A25200002F62C2 /* bear-minigame.png */; };
+		4933CDC416A25200002F62C2 /* bear-register.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDBF16A25200002F62C2 /* bear-register.png */; };
+		4933CDC516A25200002F62C2 /* bear-yourvisit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDC016A25200002F62C2 /* bear-yourvisit.png */; };
+		4933CDD416A26852002F62C2 /* grass-emailmyself.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDCF16A26852002F62C2 /* grass-emailmyself.png */; };
+		4933CDD516A26852002F62C2 /* grass-examroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDD016A26852002F62C2 /* grass-examroom.png */; };
+		4933CDD616A26852002F62C2 /* grass-faqs.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDD116A26852002F62C2 /* grass-faqs.png */; };
+		4933CDD716A26852002F62C2 /* grass-meetdoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDD216A26852002F62C2 /* grass-meetdoc.png */; };
+		4933CDD816A26852002F62C2 /* grass-meetnurse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4933CDD316A26852002F62C2 /* grass-meetnurse.png */; };
+		494F673316A7915C000E0C51 /* bear-contactus.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F673216A7915C000E0C51 /* bear-contactus.png */; };
+		494F673616A79164000E0C51 /* bear-signin.png in Resources */ = {isa = PBXBuildFile; fileRef = 494F673516A79164000E0C51 /* bear-signin.png */; };
 		495E5015169E79BF00A01103 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E5014169E79BF00A01103 /* UIKit.framework */; };
 		495E5017169E79BF00A01103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E5016169E79BF00A01103 /* Foundation.framework */; };
 		495E5019169E79BF00A01103 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E5018169E79BF00A01103 /* CoreGraphics.framework */; };
@@ -18,9 +42,62 @@
 		495E502B169E79BF00A01103 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 495E502A169E79BF00A01103 /* Default@2x.png */; };
 		495E502D169E79BF00A01103 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 495E502C169E79BF00A01103 /* Default-568h@2x.png */; };
 		495E5030169E79BF00A01103 /* SurgiFriend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 495E502E169E79BF00A01103 /* SurgiFriend.xcdatamodeld */; };
+		495E5037169E7AB800A01103 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495E5036169E7AB800A01103 /* MainStoryboard.storyboard */; };
+		495E5039169E85B500A01103 /* sog.png in Resources */ = {isa = PBXBuildFile; fileRef = 495E5038169E85B500A01103 /* sog.png */; };
+		495E5075169ED4E400A01103 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E5074169ED4E400A01103 /* RegisterViewController.m */; };
+		49A9B96916A4B10800063080 /* doc-pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A9B96616A4B10800063080 /* doc-pig.png */; };
+		49A9B96A16A4B10800063080 /* doctor-elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A9B96716A4B10800063080 /* doctor-elephant.png */; };
+		49A9B96B16A4B10800063080 /* doctor-tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A9B96816A4B10800063080 /* doctor-tiger.png */; };
+		49A9B96F16A4C00100063080 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A9B96E16A4C00100063080 /* NavigationViewController.m */; };
+		49A9B97116A50C2F00063080 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A9B97016A50C2F00063080 /* MessageUI.framework */; };
+		49A9B9A516A5490F00063080 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A9B9A416A5490E00063080 /* Patient.m */; };
+		49A9B9A816A55AFE00063080 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A9B9A716A55AFD00063080 /* LoginViewController.m */; };
+		49F92F7616A27433005845F8 /* bear-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F7516A27433005845F8 /* bear-icon.png */; };
+		49F92F7916A274ED005845F8 /* bear-icon-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F7816A274ED005845F8 /* bear-icon-retina.png */; };
+		49F92F7B16A2754E005845F8 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F7A16A2754E005845F8 /* Default-Portrait~ipad.png */; };
+		49F92F7D16A27719005845F8 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F7C16A27719005845F8 /* Default-Portrait@2x~ipad.png */; };
+		49F92F7F16A2779B005845F8 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F7E16A2779B005845F8 /* Default-Landscape~ipad.png */; };
+		49F92F8116A277B3005845F8 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F8016A277B3005845F8 /* Default-Landscape@2x~ipad.png */; };
+		49F92F9216A28625005845F8 /* nurse-a.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F8E16A28625005845F8 /* nurse-a.png */; };
+		49F92F9316A28625005845F8 /* nurse-b.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F8F16A28625005845F8 /* nurse-b.png */; };
+		49F92F9416A28625005845F8 /* nurse-c.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F9016A28625005845F8 /* nurse-c.png */; };
+		49F92F9516A28625005845F8 /* nurse-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F9116A28625005845F8 /* nurse-s.png */; };
+		49F92F9816A2881D005845F8 /* NurseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F92F9716A2881D005845F8 /* NurseViewController.m */; };
+		49F92FA016A294D5005845F8 /* appliances.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F9F16A294D5005845F8 /* appliances.png */; };
+		49F92FA316A2959E005845F8 /* ExamroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F92FA216A2959E005845F8 /* ExamroomViewController.m */; };
+		49F92FA616A2C092005845F8 /* DoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F92FA516A2C092005845F8 /* DoctorViewController.m */; };
+		49F92FA916A2C9E7005845F8 /* FaqsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F92FA816A2C9E7005845F8 /* FaqsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4916F95416AEC4D7006F0CB8 /* ForshowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForshowViewController.h; sourceTree = "<group>"; };
+		4916F95516AEC4D7006F0CB8 /* ForshowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForshowViewController.m; sourceTree = "<group>"; };
+		4916F95916AEDCED006F0CB8 /* game-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-bg.png"; sourceTree = "<group>"; };
+		4916F95A16AEDCED006F0CB8 /* game-cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-cross.png"; sourceTree = "<group>"; };
+		4916F95B16AEDCED006F0CB8 /* game-doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-doc.png"; sourceTree = "<group>"; };
+		4916F95C16AEDCED006F0CB8 /* game-monitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-monitor.png"; sourceTree = "<group>"; };
+		4916F95D16AEDCED006F0CB8 /* game-nurse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-nurse.png"; sourceTree = "<group>"; };
+		4916F95E16AEDCED006F0CB8 /* game-ste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-ste.png"; sourceTree = "<group>"; };
+		4916F95F16AEDCED006F0CB8 /* game-wheelchair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-wheelchair.png"; sourceTree = "<group>"; };
+		4916F96716AEDD61006F0CB8 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4916F96816AEDD61006F0CB8 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4933CDAD16A15542002F62C2 /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		4933CDAE16A15542002F62C2 /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		4933CDB416A16321002F62C2 /* VisitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitViewController.h; sourceTree = "<group>"; };
+		4933CDB516A16321002F62C2 /* VisitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitViewController.m; sourceTree = "<group>"; };
+		4933CDB816A20657002F62C2 /* bg-tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-tree.png"; sourceTree = "<group>"; };
+		4933CDBC16A25200002F62C2 /* bear-emailmyself.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-emailmyself.png"; sourceTree = "<group>"; };
+		4933CDBD16A25200002F62C2 /* bear-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-home.png"; sourceTree = "<group>"; };
+		4933CDBE16A25200002F62C2 /* bear-minigame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-minigame.png"; sourceTree = "<group>"; };
+		4933CDBF16A25200002F62C2 /* bear-register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-register.png"; sourceTree = "<group>"; };
+		4933CDC016A25200002F62C2 /* bear-yourvisit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-yourvisit.png"; sourceTree = "<group>"; };
+		4933CDCF16A26852002F62C2 /* grass-emailmyself.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grass-emailmyself.png"; sourceTree = "<group>"; };
+		4933CDD016A26852002F62C2 /* grass-examroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grass-examroom.png"; sourceTree = "<group>"; };
+		4933CDD116A26852002F62C2 /* grass-faqs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grass-faqs.png"; sourceTree = "<group>"; };
+		4933CDD216A26852002F62C2 /* grass-meetdoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grass-meetdoc.png"; sourceTree = "<group>"; };
+		4933CDD316A26852002F62C2 /* grass-meetnurse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grass-meetnurse.png"; sourceTree = "<group>"; };
+		494F673216A7915C000E0C51 /* bear-contactus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-contactus.png"; sourceTree = "<group>"; };
+		494F673516A79164000E0C51 /* bear-signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-signin.png"; sourceTree = "<group>"; };
 		495E5010169E79BF00A01103 /* SurgiFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurgiFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495E5014169E79BF00A01103 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		495E5016169E79BF00A01103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +113,39 @@
 		495E502A169E79BF00A01103 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		495E502C169E79BF00A01103 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		495E502F169E79BF00A01103 /* SurgiFriend.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurgiFriend.xcdatamodel; sourceTree = "<group>"; };
+		495E5036169E7AB800A01103 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		495E5038169E85B500A01103 /* sog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sog.png; sourceTree = "<group>"; };
+		495E5073169ED4E300A01103 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = ../RegisterViewController.h; sourceTree = "<group>"; };
+		495E5074169ED4E400A01103 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = ../RegisterViewController.m; sourceTree = "<group>"; };
+		49A9B96616A4B10800063080 /* doc-pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doc-pig.png"; sourceTree = "<group>"; };
+		49A9B96716A4B10800063080 /* doctor-elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doctor-elephant.png"; sourceTree = "<group>"; };
+		49A9B96816A4B10800063080 /* doctor-tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doctor-tiger.png"; sourceTree = "<group>"; };
+		49A9B96D16A4C00100063080 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		49A9B96E16A4C00100063080 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		49A9B97016A50C2F00063080 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		49A9B9A316A5490E00063080 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		49A9B9A416A5490E00063080 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		49A9B9A616A55AFC00063080 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		49A9B9A716A55AFD00063080 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		49F92F7516A27433005845F8 /* bear-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-icon.png"; sourceTree = "<group>"; };
+		49F92F7816A274ED005845F8 /* bear-icon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear-icon-retina.png"; sourceTree = "<group>"; };
+		49F92F7A16A2754E005845F8 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		49F92F7C16A27719005845F8 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		49F92F7E16A2779B005845F8 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		49F92F8016A277B3005845F8 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		49F92F8E16A28625005845F8 /* nurse-a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nurse-a.png"; sourceTree = "<group>"; };
+		49F92F8F16A28625005845F8 /* nurse-b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nurse-b.png"; sourceTree = "<group>"; };
+		49F92F9016A28625005845F8 /* nurse-c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nurse-c.png"; sourceTree = "<group>"; };
+		49F92F9116A28625005845F8 /* nurse-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nurse-s.png"; sourceTree = "<group>"; };
+		49F92F9616A2881D005845F8 /* NurseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NurseViewController.h; path = ../NurseViewController.h; sourceTree = "<group>"; };
+		49F92F9716A2881D005845F8 /* NurseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NurseViewController.m; path = ../NurseViewController.m; sourceTree = "<group>"; };
+		49F92F9F16A294D5005845F8 /* appliances.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appliances.png; sourceTree = "<group>"; };
+		49F92FA116A2959E005845F8 /* ExamroomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamroomViewController.h; sourceTree = "<group>"; };
+		49F92FA216A2959E005845F8 /* ExamroomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamroomViewController.m; sourceTree = "<group>"; };
+		49F92FA416A2C091005845F8 /* DoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorViewController.h; sourceTree = "<group>"; };
+		49F92FA516A2C092005845F8 /* DoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorViewController.m; sourceTree = "<group>"; };
+		49F92FA716A2C9E7005845F8 /* FaqsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaqsViewController.h; sourceTree = "<group>"; };
+		49F92FA816A2C9E7005845F8 /* FaqsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaqsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A9B97116A50C2F00063080 /* MessageUI.framework in Frameworks */,
 				495E5015169E79BF00A01103 /* UIKit.framework in Frameworks */,
 				495E5017169E79BF00A01103 /* Foundation.framework in Frameworks */,
 				495E5019169E79BF00A01103 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +164,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4916F95816AEDCEC006F0CB8 /* gamepictures */ = {
+			isa = PBXGroup;
+			children = (
+				4916F95916AEDCED006F0CB8 /* game-bg.png */,
+				4916F95A16AEDCED006F0CB8 /* game-cross.png */,
+				4916F95B16AEDCED006F0CB8 /* game-doc.png */,
+				4916F95C16AEDCED006F0CB8 /* game-monitor.png */,
+				4916F95D16AEDCED006F0CB8 /* game-nurse.png */,
+				4916F95E16AEDCED006F0CB8 /* game-ste.png */,
+				4916F95F16AEDCED006F0CB8 /* game-wheelchair.png */,
+			);
+			path = gamepictures;
+			sourceTree = "<group>";
+		};
+		4933CDBB16A25200002F62C2 /* bearlabels */ = {
+			isa = PBXGroup;
+			children = (
+				494F673516A79164000E0C51 /* bear-signin.png */,
+				494F673216A7915C000E0C51 /* bear-contactus.png */,
+				4933CDBC16A25200002F62C2 /* bear-emailmyself.png */,
+				4933CDBD16A25200002F62C2 /* bear-home.png */,
+				4933CDBE16A25200002F62C2 /* bear-minigame.png */,
+				4933CDBF16A25200002F62C2 /* bear-register.png */,
+				4933CDC016A25200002F62C2 /* bear-yourvisit.png */,
+			);
+			path = bearlabels;
+			sourceTree = "<group>";
+		};
+		4933CDCE16A26852002F62C2 /* grasslabels */ = {
+			isa = PBXGroup;
+			children = (
+				4933CDCF16A26852002F62C2 /* grass-emailmyself.png */,
+				4933CDD016A26852002F62C2 /* grass-examroom.png */,
+				4933CDD116A26852002F62C2 /* grass-faqs.png */,
+				4933CDD216A26852002F62C2 /* grass-meetdoc.png */,
+				4933CDD316A26852002F62C2 /* grass-meetnurse.png */,
+			);
+			path = grasslabels;
+			sourceTree = "<group>";
+		};
 		495E5005169E79BF00A01103 = {
 			isa = PBXGroup;
 			children = (
+				49A9B97016A50C2F00063080 /* MessageUI.framework */,
+				49F92F8016A277B3005845F8 /* Default-Landscape@2x~ipad.png */,
+				49F92F7E16A2779B005845F8 /* Default-Landscape~ipad.png */,
+				49F92F7C16A27719005845F8 /* Default-Portrait@2x~ipad.png */,
+				49F92F7A16A2754E005845F8 /* Default-Portrait~ipad.png */,
+				49F92F7816A274ED005845F8 /* bear-icon-retina.png */,
+				49F92F7516A27433005845F8 /* bear-icon.png */,
 				495E501C169E79BF00A01103 /* SurgiFriend */,
 				495E5013169E79BF00A01103 /* Frameworks */,
 				495E5011169E79BF00A01103 /* Products */,
@@ -84,9 +242,34 @@
 		495E501C169E79BF00A01103 /* SurgiFriend */ = {
 			isa = PBXGroup;
 			children = (
+				49A9B96D16A4C00100063080 /* NavigationViewController.h */,
+				49A9B96E16A4C00100063080 /* NavigationViewController.m */,
+				495E5073169ED4E300A01103 /* RegisterViewController.h */,
+				495E5074169ED4E400A01103 /* RegisterViewController.m */,
+				4933CDB416A16321002F62C2 /* VisitViewController.h */,
+				4933CDB516A16321002F62C2 /* VisitViewController.m */,
+				49F92F9616A2881D005845F8 /* NurseViewController.h */,
+				49F92F9716A2881D005845F8 /* NurseViewController.m */,
+				49F92FA116A2959E005845F8 /* ExamroomViewController.h */,
+				49F92FA216A2959E005845F8 /* ExamroomViewController.m */,
+				49F92FA416A2C091005845F8 /* DoctorViewController.h */,
+				49F92FA516A2C092005845F8 /* DoctorViewController.m */,
+				49F92FA716A2C9E7005845F8 /* FaqsViewController.h */,
+				49F92FA816A2C9E7005845F8 /* FaqsViewController.m */,
+				4933CDAD16A15542002F62C2 /* EmailViewController.h */,
+				4933CDAE16A15542002F62C2 /* EmailViewController.m */,
+				49A9B9A616A55AFC00063080 /* LoginViewController.h */,
+				49A9B9A716A55AFD00063080 /* LoginViewController.m */,
+				4916F95416AEC4D7006F0CB8 /* ForshowViewController.h */,
+				4916F95516AEC4D7006F0CB8 /* ForshowViewController.m */,
+				495E5036169E7AB800A01103 /* MainStoryboard.storyboard */,
+				4916F96716AEDD61006F0CB8 /* GameViewController.h */,
+				4916F96816AEDD61006F0CB8 /* GameViewController.m */,
 				495E5025169E79BF00A01103 /* AppDelegate.h */,
 				495E5026169E79BF00A01103 /* AppDelegate.m */,
 				495E502E169E79BF00A01103 /* SurgiFriend.xcdatamodeld */,
+				49A9B9A316A5490E00063080 /* Patient.h */,
+				49A9B9A416A5490E00063080 /* Patient.m */,
 				495E501D169E79BF00A01103 /* Supporting Files */,
 			);
 			path = SurgiFriend;
@@ -95,6 +278,13 @@
 		495E501D169E79BF00A01103 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4916F95816AEDCEC006F0CB8 /* gamepictures */,
+				49A9B96516A4B10800063080 /* doctorpictures */,
+				49F92F8D16A28625005845F8 /* nurses2 */,
+				4933CDCE16A26852002F62C2 /* grasslabels */,
+				4933CDBB16A25200002F62C2 /* bearlabels */,
+				49F92F9F16A294D5005845F8 /* appliances.png */,
+				4933CDB816A20657002F62C2 /* bg-tree.png */,
 				495E501E169E79BF00A01103 /* SurgiFriend-Info.plist */,
 				495E501F169E79BF00A01103 /* InfoPlist.strings */,
 				495E5022169E79BF00A01103 /* main.m */,
@@ -102,8 +292,30 @@
 				495E5028169E79BF00A01103 /* Default.png */,
 				495E502A169E79BF00A01103 /* Default@2x.png */,
 				495E502C169E79BF00A01103 /* Default-568h@2x.png */,
+				495E5038169E85B500A01103 /* sog.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49A9B96516A4B10800063080 /* doctorpictures */ = {
+			isa = PBXGroup;
+			children = (
+				49A9B96616A4B10800063080 /* doc-pig.png */,
+				49A9B96716A4B10800063080 /* doctor-elephant.png */,
+				49A9B96816A4B10800063080 /* doctor-tiger.png */,
+			);
+			path = doctorpictures;
+			sourceTree = "<group>";
+		};
+		49F92F8D16A28625005845F8 /* nurses2 */ = {
+			isa = PBXGroup;
+			children = (
+				49F92F8E16A28625005845F8 /* nurse-a.png */,
+				49F92F8F16A28625005845F8 /* nurse-b.png */,
+				49F92F9016A28625005845F8 /* nurse-c.png */,
+				49F92F9116A28625005845F8 /* nurse-s.png */,
+			);
+			path = nurses2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +373,42 @@
 				495E5029169E79BF00A01103 /* Default.png in Resources */,
 				495E502B169E79BF00A01103 /* Default@2x.png in Resources */,
 				495E502D169E79BF00A01103 /* Default-568h@2x.png in Resources */,
+				495E5037169E7AB800A01103 /* MainStoryboard.storyboard in Resources */,
+				495E5039169E85B500A01103 /* sog.png in Resources */,
+				4933CDB916A20657002F62C2 /* bg-tree.png in Resources */,
+				4933CDC116A25200002F62C2 /* bear-emailmyself.png in Resources */,
+				4933CDC216A25200002F62C2 /* bear-home.png in Resources */,
+				4933CDC316A25200002F62C2 /* bear-minigame.png in Resources */,
+				4933CDC416A25200002F62C2 /* bear-register.png in Resources */,
+				4933CDC516A25200002F62C2 /* bear-yourvisit.png in Resources */,
+				4933CDD416A26852002F62C2 /* grass-emailmyself.png in Resources */,
+				4933CDD516A26852002F62C2 /* grass-examroom.png in Resources */,
+				4933CDD616A26852002F62C2 /* grass-faqs.png in Resources */,
+				4933CDD716A26852002F62C2 /* grass-meetdoc.png in Resources */,
+				4933CDD816A26852002F62C2 /* grass-meetnurse.png in Resources */,
+				49F92F7616A27433005845F8 /* bear-icon.png in Resources */,
+				49F92F7916A274ED005845F8 /* bear-icon-retina.png in Resources */,
+				49F92F7B16A2754E005845F8 /* Default-Portrait~ipad.png in Resources */,
+				49F92F7D16A27719005845F8 /* Default-Portrait@2x~ipad.png in Resources */,
+				49F92F7F16A2779B005845F8 /* Default-Landscape~ipad.png in Resources */,
+				49F92F8116A277B3005845F8 /* Default-Landscape@2x~ipad.png in Resources */,
+				49F92F9216A28625005845F8 /* nurse-a.png in Resources */,
+				49F92F9316A28625005845F8 /* nurse-b.png in Resources */,
+				49F92F9416A28625005845F8 /* nurse-c.png in Resources */,
+				49F92F9516A28625005845F8 /* nurse-s.png in Resources */,
+				49F92FA016A294D5005845F8 /* appliances.png in Resources */,
+				49A9B96916A4B10800063080 /* doc-pig.png in Resources */,
+				49A9B96A16A4B10800063080 /* doctor-elephant.png in Resources */,
+				49A9B96B16A4B10800063080 /* doctor-tiger.png in Resources */,
+				494F673316A7915C000E0C51 /* bear-contactus.png in Resources */,
+				494F673616A79164000E0C51 /* bear-signin.png in Resources */,
+				4916F96016AEDCED006F0CB8 /* game-bg.png in Resources */,
+				4916F96116AEDCED006F0CB8 /* game-cross.png in Resources */,
+				4916F96216AEDCED006F0CB8 /* game-doc.png in Resources */,
+				4916F96316AEDCED006F0CB8 /* game-monitor.png in Resources */,
+				4916F96416AEDCED006F0CB8 /* game-nurse.png in Resources */,
+				4916F96516AEDCED006F0CB8 /* game-ste.png in Resources */,
+				4916F96616AEDCED006F0CB8 /* game-wheelchair.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +422,18 @@
 				495E5023169E79BF00A01103 /* main.m in Sources */,
 				495E5027169E79BF00A01103 /* AppDelegate.m in Sources */,
 				495E5030169E79BF00A01103 /* SurgiFriend.xcdatamodeld in Sources */,
+				495E5075169ED4E400A01103 /* RegisterViewController.m in Sources */,
+				4933CDAF16A15542002F62C2 /* EmailViewController.m in Sources */,
+				4933CDB616A16321002F62C2 /* VisitViewController.m in Sources */,
+				49F92F9816A2881D005845F8 /* NurseViewController.m in Sources */,
+				49F92FA316A2959E005845F8 /* ExamroomViewController.m in Sources */,
+				49F92FA616A2C092005845F8 /* DoctorViewController.m in Sources */,
+				49F92FA916A2C9E7005845F8 /* FaqsViewController.m in Sources */,
+				49A9B96F16A4C00100063080 /* NavigationViewController.m in Sources */,
+				49A9B9A516A5490F00063080 /* Patient.m in Sources */,
+				49A9B9A816A55AFE00063080 /* LoginViewController.m in Sources */,
+				4916F95616AEC4D7006F0CB8 /* ForshowViewController.m in Sources */,
+				4916F96916AEDD61006F0CB8 /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +544,7 @@
 				495E5035169E79BF00A01103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
