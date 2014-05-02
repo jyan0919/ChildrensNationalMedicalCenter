@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4916D11119134DFC00F31CC0 /* NurseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916D10E19134DFC00F31CC0 /* NurseViewController.m */; };
+		4916D11219134DFC00F31CC0 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916D11019134DFC00F31CC0 /* RegisterViewController.m */; };
 		4916F95616AEC4D7006F0CB8 /* ForshowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916F95516AEC4D7006F0CB8 /* ForshowViewController.m */; };
 		4916F96016AEDCED006F0CB8 /* game-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95916AEDCED006F0CB8 /* game-bg.png */; };
 		4916F96116AEDCED006F0CB8 /* game-cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916F95A16AEDCED006F0CB8 /* game-cross.png */; };
@@ -44,7 +46,6 @@
 		495E5030169E79BF00A01103 /* SurgiFriend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 495E502E169E79BF00A01103 /* SurgiFriend.xcdatamodeld */; };
 		495E5037169E7AB800A01103 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495E5036169E7AB800A01103 /* MainStoryboard.storyboard */; };
 		495E5039169E85B500A01103 /* sog.png in Resources */ = {isa = PBXBuildFile; fileRef = 495E5038169E85B500A01103 /* sog.png */; };
-		495E5075169ED4E400A01103 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E5074169ED4E400A01103 /* RegisterViewController.m */; };
 		49A9B96916A4B10800063080 /* doc-pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A9B96616A4B10800063080 /* doc-pig.png */; };
 		49A9B96A16A4B10800063080 /* doctor-elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A9B96716A4B10800063080 /* doctor-elephant.png */; };
 		49A9B96B16A4B10800063080 /* doctor-tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A9B96816A4B10800063080 /* doctor-tiger.png */; };
@@ -62,7 +63,6 @@
 		49F92F9316A28625005845F8 /* nurse-b.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F8F16A28625005845F8 /* nurse-b.png */; };
 		49F92F9416A28625005845F8 /* nurse-c.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F9016A28625005845F8 /* nurse-c.png */; };
 		49F92F9516A28625005845F8 /* nurse-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F9116A28625005845F8 /* nurse-s.png */; };
-		49F92F9816A2881D005845F8 /* NurseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F92F9716A2881D005845F8 /* NurseViewController.m */; };
 		49F92FA016A294D5005845F8 /* appliances.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F92F9F16A294D5005845F8 /* appliances.png */; };
 		49F92FA316A2959E005845F8 /* ExamroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F92FA216A2959E005845F8 /* ExamroomViewController.m */; };
 		49F92FA616A2C092005845F8 /* DoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F92FA516A2C092005845F8 /* DoctorViewController.m */; };
@@ -70,6 +70,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4916D10D19134DFC00F31CC0 /* NurseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NurseViewController.h; sourceTree = "<group>"; };
+		4916D10E19134DFC00F31CC0 /* NurseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NurseViewController.m; sourceTree = "<group>"; };
+		4916D10F19134DFC00F31CC0 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		4916D11019134DFC00F31CC0 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		4916F95416AEC4D7006F0CB8 /* ForshowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForshowViewController.h; sourceTree = "<group>"; };
 		4916F95516AEC4D7006F0CB8 /* ForshowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForshowViewController.m; sourceTree = "<group>"; };
 		4916F95916AEDCED006F0CB8 /* game-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game-bg.png"; sourceTree = "<group>"; };
@@ -115,8 +119,6 @@
 		495E502F169E79BF00A01103 /* SurgiFriend.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurgiFriend.xcdatamodel; sourceTree = "<group>"; };
 		495E5036169E7AB800A01103 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
 		495E5038169E85B500A01103 /* sog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sog.png; sourceTree = "<group>"; };
-		495E5073169ED4E300A01103 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = ../RegisterViewController.h; sourceTree = "<group>"; };
-		495E5074169ED4E400A01103 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = ../RegisterViewController.m; sourceTree = "<group>"; };
 		49A9B96616A4B10800063080 /* doc-pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doc-pig.png"; sourceTree = "<group>"; };
 		49A9B96716A4B10800063080 /* doctor-elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doctor-elephant.png"; sourceTree = "<group>"; };
 		49A9B96816A4B10800063080 /* doctor-tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doctor-tiger.png"; sourceTree = "<group>"; };
@@ -137,8 +139,6 @@
 		49F92F8F16A28625005845F8 /* nurse-b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nurse-b.png"; sourceTree = "<group>"; };
 		49F92F9016A28625005845F8 /* nurse-c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nurse-c.png"; sourceTree = "<group>"; };
 		49F92F9116A28625005845F8 /* nurse-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nurse-s.png"; sourceTree = "<group>"; };
-		49F92F9616A2881D005845F8 /* NurseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NurseViewController.h; path = ../NurseViewController.h; sourceTree = "<group>"; };
-		49F92F9716A2881D005845F8 /* NurseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NurseViewController.m; path = ../NurseViewController.m; sourceTree = "<group>"; };
 		49F92F9F16A294D5005845F8 /* appliances.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appliances.png; sourceTree = "<group>"; };
 		49F92FA116A2959E005845F8 /* ExamroomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamroomViewController.h; sourceTree = "<group>"; };
 		49F92FA216A2959E005845F8 /* ExamroomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamroomViewController.m; sourceTree = "<group>"; };
@@ -244,12 +244,12 @@
 			children = (
 				49A9B96D16A4C00100063080 /* NavigationViewController.h */,
 				49A9B96E16A4C00100063080 /* NavigationViewController.m */,
-				495E5073169ED4E300A01103 /* RegisterViewController.h */,
-				495E5074169ED4E400A01103 /* RegisterViewController.m */,
+				4916D10D19134DFC00F31CC0 /* NurseViewController.h */,
+				4916D10E19134DFC00F31CC0 /* NurseViewController.m */,
+				4916D10F19134DFC00F31CC0 /* RegisterViewController.h */,
+				4916D11019134DFC00F31CC0 /* RegisterViewController.m */,
 				4933CDB416A16321002F62C2 /* VisitViewController.h */,
 				4933CDB516A16321002F62C2 /* VisitViewController.m */,
-				49F92F9616A2881D005845F8 /* NurseViewController.h */,
-				49F92F9716A2881D005845F8 /* NurseViewController.m */,
 				49F92FA116A2959E005845F8 /* ExamroomViewController.h */,
 				49F92FA216A2959E005845F8 /* ExamroomViewController.m */,
 				49F92FA416A2C091005845F8 /* DoctorViewController.h */,
@@ -420,17 +420,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				495E5023169E79BF00A01103 /* main.m in Sources */,
+				4916D11219134DFC00F31CC0 /* RegisterViewController.m in Sources */,
 				495E5027169E79BF00A01103 /* AppDelegate.m in Sources */,
 				495E5030169E79BF00A01103 /* SurgiFriend.xcdatamodeld in Sources */,
-				495E5075169ED4E400A01103 /* RegisterViewController.m in Sources */,
 				4933CDAF16A15542002F62C2 /* EmailViewController.m in Sources */,
 				4933CDB616A16321002F62C2 /* VisitViewController.m in Sources */,
-				49F92F9816A2881D005845F8 /* NurseViewController.m in Sources */,
 				49F92FA316A2959E005845F8 /* ExamroomViewController.m in Sources */,
 				49F92FA616A2C092005845F8 /* DoctorViewController.m in Sources */,
 				49F92FA916A2C9E7005845F8 /* FaqsViewController.m in Sources */,
 				49A9B96F16A4C00100063080 /* NavigationViewController.m in Sources */,
 				49A9B9A516A5490F00063080 /* Patient.m in Sources */,
+				4916D11119134DFC00F31CC0 /* NurseViewController.m in Sources */,
 				49A9B9A816A55AFE00063080 /* LoginViewController.m in Sources */,
 				4916F95616AEC4D7006F0CB8 /* ForshowViewController.m in Sources */,
 				4916F96916AEDD61006F0CB8 /* GameViewController.m in Sources */,
